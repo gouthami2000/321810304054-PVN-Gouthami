@@ -1,0 +1,366 @@
+{
+ "cells": [
+  {
+   "cell_type": "code",
+   "execution_count": 20,
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Addtion: 5\n"
+     ]
+    }
+   ],
+   "source": [
+    "a=2\n",
+    "b=3\n",
+    "print( \"Addtion:\",a+b);\n",
+    "\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 17,
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Addtion: 17\n"
+     ]
+    }
+   ],
+   "source": [
+    "a=8\n",
+    "b=6\n",
+    "c=3\n",
+    "print(\"Addtion:\",a+b+c);\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 22,
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Subtraction: 2\n",
+      "Subtraction: -2\n"
+     ]
+    }
+   ],
+   "source": [
+    "x=1\n",
+    "y=3\n",
+    "print(\"Subtraction:\",y-x)\n",
+    "print(\"Subtraction:\",x-y)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 23,
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Multiplication: 10.0\n"
+     ]
+    }
+   ],
+   "source": [
+    "x=10\n",
+    "y=100\n",
+    "z=y/x\n",
+    "print(\"Division:\",z)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 26,
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Floor Division: 10\n"
+     ]
+    }
+   ],
+   "source": [
+    "x=10\n",
+    "y=100\n",
+    "z=y//x\n",
+    "print(\"Floor Division:\",z)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 14,
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Mutlipication: 6\n"
+     ]
+    }
+   ],
+   "source": [
+    "x=2\n",
+    "y=3\n",
+    "z=x*y\n",
+    "print(\"Mutlipication:\",z)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 16,
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Exponent: 8\n"
+     ]
+    }
+   ],
+   "source": [
+    "x=2\n",
+    "y=3\n",
+    "z=x**y\n",
+    "print(\"Exponent:\",z)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 31,
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Modulus: 0\n",
+      "Modulus: 1\n"
+     ]
+    }
+   ],
+   "source": [
+    "a=10\n",
+    "b=2\n",
+    "c=3\n",
+    "print(\"Modulus:\",a%b)\n",
+    "print(\"Modulus:\",a%c)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 41,
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "si: 1200.0\n"
+     ]
+    }
+   ],
+   "source": [
+    "#calculate simple interst\n",
+    "p=10000\n",
+    "t=12\n",
+    "r=1\n",
+    "si=(p*r*t)/100\n",
+    "print(\"si:\",si)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 42,
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Area: 12.56\n"
+     ]
+    }
+   ],
+   "source": [
+    "#area of circle\n",
+    "pi=3.14\n",
+    "r=2\n",
+    "area=pi*r*r\n",
+    "print(\"Area:\",area)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 44,
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Area of Triangle: 6.0\n"
+     ]
+    }
+   ],
+   "source": [
+    "#Area of Triangle\n",
+    "height=4\n",
+    "base=3\n",
+    "at=height*base/2\n",
+    "print(\"Area of Triangle:\",at)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 45,
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Fahrenheit: 98.60000000000001\n"
+     ]
+    }
+   ],
+   "source": [
+    "#Celsius to Fahrenheit\n",
+    "celsius=37\n",
+    "fahrenheit=(celsius*1.8)+32\n",
+    "print(\"Fahrenheit:\",fahrenheit)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 46,
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Area of Revtangle: 10\n"
+     ]
+    }
+   ],
+   "source": [
+    "#Area of Rectangle\n",
+    "length=5\n",
+    "width=2\n",
+    "ar=length*width\n",
+    "print(\"Area of Revtangle:\",ar)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 47,
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Perimeter of Square: 16\n"
+     ]
+    }
+   ],
+   "source": [
+    "#Perimeter of Square\n",
+    "side=4\n",
+    "ps=4*side\n",
+    "print(\"Perimeter of Square:\",ps)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 48,
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Circumstances of Circle: 18.84\n"
+     ]
+    }
+   ],
+   "source": [
+    "#Circumstances of Circle\n",
+    "radius=3\n",
+    "pi=3.14\n",
+    "c=2*pi*radius\n",
+    "print(\"Circumstances of Circle:\",c)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 50,
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Before swapping: 10 20\n",
+      "Swaping of Two Numbers: 20 10\n"
+     ]
+    }
+   ],
+   "source": [
+    "#Swaping of Two Numbers\n",
+    "a=10\n",
+    "b=20\n",
+    "print(\"Before swapping:\",a,b)\n",
+    "c=b\n",
+    "b=a\n",
+    "a=c\n",
+    "print(\"Swaping of Two Numbers:\",a,b)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  }
+ ],
+ "metadata": {
+  "kernelspec": {
+   "display_name": "Python 3",
+   "language": "python",
+   "name": "python3"
+  },
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 3
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython3",
+   "version": "3.7.5"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 4
+}
